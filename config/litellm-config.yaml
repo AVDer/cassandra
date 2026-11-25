@@ -1,0 +1,9 @@
+model_list:
+- model_name: chat
+  litellm_params:
+    model: ollama/qwen3:8b
+    api_base: "http://192.168.2.163:11345"
+- model_name: local-embed
+  litellm_params:
+    model: ollama/nomic-embed-text:latest
+    api_base: "http://192.168.2.163:11345"

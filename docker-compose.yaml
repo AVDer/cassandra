@@ -1,0 +1,14 @@
+name: cassandra-stack
+
+services:
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    container_name: litellm
+    restart: unless-stopped
+    command: ["--config", "/app/config.yaml", "--port", "4000"]
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./config/litellm-config.yaml:/app/config.yaml:ro
+    environment:
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY}
