@@ -1,0 +1,13 @@
+[
+"venus call 18/11\nthey want the playlist sync fixed before xmas, otherwise escalation. Marta will send crash logs tmrw. we need to check if it's the same bug as last month -> Andrii",
+"Earth - weekly sync, 2026-11-03\nDiscussed the voice control delays. Earth says it's about 2 sec on their side, we measured under 1. Agreed to compare test setups.\nAI: Andrii to share our test config\nAI: Earth (Jens) to send their network setup by Friday\n",
+"jupiter 5.11\nnothing new really. still waiting for their spec for the rear seat screens. Pinged Olga again.",
+"Meeting with Saturn, Nov 7th\n- Saturn asked for a demo of the new UI at their HQ, probably early Dec\n- licence renewal is ok from their side, contract goes out next week\n,TODO: book travel for the demo (me)\nTODO: legal to send the contract",
+"Neptune - 10/11/2026\nShort call. Neptune is happy with the last release, no open bugs. Next call in January.",
+"mercury!! 11 nov\nradio app crashes when switching FM->DAB. reproducible on their side 100%. Pieter sends video + logs today. QA to look at it asap, high prio",
+"Uranus kickoff\nDate: 13.11.2026\nParticipants: Uranus (Sven, Aiko), Cinemo (Andrii, Paul)\nUranus wants to integrate our media framework into their new platform. Timeline is tight, SOP is end of 2027.\nNext steps:\n- Uranus shares the platform docs\n- Paul prepares a rough integration plan by 27.11.",
+"call w/ Mars on the 17th (Nov)\nBT stuttering - logs received, Andrii looking at it. podcasts still not approved on their side.",
+"Jupiter, 19 November 2026\nFinally got the rear seat spec. Looks like they want 3 screens instead of 2, which changes the estimate.\n- re-estimate effort -> Paul, next week\n- ask Olga whether the 3rd screen is optional",
+"20.11 earth\ntest setups compared, they were using wifi hotspot, that explains the delay. closed.",
+"Saturn / Venus joint meeting - 24 Nov 2026\nBoth use the same head unit supplier so we discussed the shared firmware issue together. Venus playlist sync bug seems related.\nAI Andrii: check if one fix covers both\nAI Saturn: confirm demo date (still open)\nNo date for next meeting yet."
+]

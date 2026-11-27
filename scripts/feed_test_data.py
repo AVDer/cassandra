@@ -57,6 +57,11 @@ class TestDataFeeder:
         connection.commit()
         connection.close()
 
+    def print_test_moms(self):
+        with open(os.path.join(os.path.dirname(__file__), "test_moms.json"), "r") as file:
+            moms = json.load(file)
+            print(moms)
+
     def fill_with_data(self):
         self.clear_database()
         self.add_accounts()
@@ -64,4 +69,5 @@ class TestDataFeeder:
 
 data_feeder = TestDataFeeder()
 # data_feeder.fill_with_data()
-data_feeder.clear_database()
+# data_feeder.clear_database()
+data_feeder.print_test_moms()
